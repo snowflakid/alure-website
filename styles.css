@@ -85,6 +85,21 @@ header{
   box-shadow: inset 0 0 20px rgba(255,255,255,0.04), var(--shadow);
   overflow:hidden;
 }
+
+.btn-other {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+.brand-mark-img{
+  width: 60px; 
+  height: 60px; 
+  border-radius: 12px; 
+  position:relative;
+  overflow:hidden;
+}
+
 .dot {
   text-align: center;
   font-size: 11px;
@@ -137,14 +152,13 @@ header{
   transition: transform 0.3s cubic-bezier(.7,.2,.2,1), box-shadow 0.3s, filter 0.3s;
 }
 .card:hover {
-  transform: scale(1.04) translateY(-4px);
+  transform: scale(1.04) translateY(-40px);
   box-shadow: 0 8px 32px #00ffe7a0, 0 20px 60px rgba(0,0,0,0.65);
   filter: brightness(1.08);
 }
 
 .btn:active, .cta-primary:active {
   transform: scale(0.96);
-  box-shadow: 0 0 24px #00ffe7, 0 0 48px #00ffe7 inset;
 }
 /* ============ HERO ============ */
 .hero{ 
@@ -486,6 +500,11 @@ footer{ border-top:1px solid var(--border); background: rgba(0,0,0,0.7); backdro
   opacity: 1;
   transform: none;
   filter: none;
+}
+
+.reveal:hover {
+  transform: translateY(24px) scale(0.98);
+  transition: all .7s cubic-bezier(.7,.2,.2,1);
 }
 
 .magnetic{ position: relative; }
