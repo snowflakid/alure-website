@@ -16,8 +16,7 @@
     <header>
       <div class="container nav">
         <div class="brand">
-          <button class='brand-mark' id="theme-toggle" aria-label="Changer le thème">🌙</button>
-          <span>alure.dev</span>
+          <img class="brand-mark-img" src="assets/Untitled(1).png">
         </div>
         <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
           <span></span>
@@ -28,7 +27,8 @@
           <a href="#work">pourquoi choisir alure ?</a>
           <a href="#process">processus</a>
           <a href="#pricing">tarifs</a>
-          <a href="#contact" class="cta-primary">contact</a>
+          <a href="#contact">contact</a>
+          <a><button class="btn-other" id="theme-toggle" aria-label="Changer le thème">🌙</button></a>
         </nav>
       </div>
     </header>
@@ -36,14 +36,14 @@
     <!-- HERO -->
     <section class="hero">
       <div class="container">
-        <span class="badge reveal">alure.dev</span>
-        <h1 class="reveal">Des sites web qui <br/>inspirent confiance dès le premier regard.</h1>
-        <p class="lead reveal">Je design et créé rapidement des sites web optimisés et construits pour faire le plus court chemin entre vous et le client. Pas de blabla — un site épuré qui donne envie aux visiteurs de devenir client en un instant.</p>
-        <div class="hero-actions reveal">
+        <span class="badge ">alure.dev</span>
+        <h1 class="">Des sites web qui <br/>inspirent confiance dès le premier regard.</h1>
+        <p class="lead ">Je design et créé rapidement des sites web optimisés et construits pour faire le plus court chemin entre vous et le client. Pas de blabla — un site épuré qui donne envie aux visiteurs de devenir client en un instant.</p>
+        <div class="hero-actions ">
           <a href="#contact" class="btn cta-primary magnetic" data-magnetic>Obtenez votre site</a>
           <a href="#work" class="btn btn-secondary magnetic" data-magnetic>Voir des exemples</a>
         </div>
-        <div class="trust reveal">
+        <div class="trust ">
           <small>De nombreux fondateurs, créateurs et entreprises locales nous font confiance.</small>
           <div class="logo-row" aria-hidden="true">
             <div class="pill">E‑commerce</div>
@@ -58,7 +58,7 @@
     <!-- FEATURES / VALUE -->
     <section id="work">
       <div class="container">
-        <h2 class="section-title reveal">Pourquoi choisir alure ?</h2>
+        <h2 class="section-title ">Pourquoi choisir alure ?</h2>
         <div class="features">
           <article class="card reveal">
             <div class="mono-icon">#01</div>
@@ -82,7 +82,7 @@
     <!-- PROCESS -->
     <section id="process">
       <div class="container">
-        <h2 class="section-title reveal">Un processus simple et transparent.</h2>
+        <h2 class="section-title ">Un processus simple et transparent.</h2>
         <div class="timeline">
           <div class="step reveal">
             <span>Etape 1</span>
@@ -111,9 +111,9 @@
     <!-- PRICING / PLANS -->
     <section id="pricing">
       <div class="container">
-        <h2 class="section-title reveal">Formules simples</h2>
+        <h2 class="section-title ">Formules simples</h2>
         <div class="pricing">
-          <article class="price-card reveal">
+          <article class="price-card ">
             <h3>Essentiel</h3>
             <div class="price">€249</div>
             <ul class="features-list">
@@ -124,7 +124,7 @@
             <a href="#contact" class="btn btn-secondary magnetic" data-magnetic>Choisir essentiel</a>
           </article>
 
-          <article class="price-card featured reveal" aria-label="Most popular">
+          <article class="price-card featured" aria-label="Most popular">
             <div class="badge" style="margin-bottom:10px;">Populaire</div>
             <h3>Pro</h3>
             <div class="price">€599</div>
@@ -136,7 +136,7 @@
             <a href="#contact" class="btn cta-primary magnetic" data-magnetic>Choisir Pro</a>
           </article>
 
-          <article class="price-card reveal">
+          <article class="price-card ">
             <h3>Custom</h3>
             <div class="price">À définir ensemble</div>
             <ul class="features-list">
@@ -161,7 +161,7 @@
 
     <section>
       <div class="container">
-        <h2 class="section-title reveal">Avis</h2>
+        <h2 class="section-title ">Avis</h2>
       </div>
       <div class="container testimonials">
         <div class="quote reveal">
@@ -174,9 +174,9 @@
     <!-- CONTACT -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title reveal">Démarrez votre projet</h2>
-        <p class="muted reveal">Parlez-moi de vos objectifs. Je vous réponds sous 24h.</p>
-        <form class="reveal" action="https://formspree.io/f/xkgjzbop" method="POST">
+        <h2 class="section-title ">Démarrez votre projet</h2>
+        <p class="muted">Parlez-moi de vos objectifs. Je vous réponds sous 24h.</p>
+        <form class="" action="https://formspree.io/f/xkgjzbop" method="POST">
           <div class="field">
             <label for="name">Votre nom</label>
             <input id="name" name="name" required placeholder="Nom Prenom" />
@@ -200,6 +200,7 @@
           </div>
           <div class="full submit-row">
             <button type="submit" class="btn cta-primary magnetic" data-magnetic>Envoyer</button>
+            <span class="muted-small">ou email <strong>contact@alure.dev</strong></span>
           </div>
         </form>
       </div>
