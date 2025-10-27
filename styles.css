@@ -719,38 +719,6 @@ body.light-mode .muted-small {
   color: #666;
 }
 
-
-#custom-cursor {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  pointer-events: none;
-  background: white;
-  mix-blend-mode: difference;
-  transform: translate(-50%, -50%);
-  z-index: 999999;
-  border: 2px solid rgba(0,0,0,0.4); /* 👈 faint outline ensures visibility */
-  box-shadow: 0 0 4px rgba(0,0,0,0.25); /* 👈 subtle halo */
-  transition: width 0.2s ease, height 0.2s ease, transform 0.08s ease;
-}
-
-/* Hide system cursor everywhere */
-body, a, button, .btn, input, textarea, select {
-  cursor: none !important;
-}
-
-@media (pointer: coarse), (max-width: 720px) {
-  body, a, button, .btn, input, textarea, select {
-    cursor: auto !important;
-  }
-  #custom-cursor {
-    display: none !important;
-  }
-}
-
 @media (max-width: 720px) {
   .nav-links {
     overflow-y: auto;
