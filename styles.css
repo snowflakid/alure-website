@@ -72,7 +72,6 @@ header{
   gap:14px; 
   font-weight:700; 
   letter-spacing:1px; 
-  text-transform:lowercase; 
 }
 
 .brand-mark{
@@ -179,7 +178,7 @@ header{
 }
 .hero h1{
   font-size: clamp(3rem, 7vw, 6.2rem);
-  line-height: 1.02; font-weight: 900; letter-spacing: 2px; text-transform: lowercase;
+  line-height: 1.02; font-weight: 900; letter-spacing: 2px;
   margin: 18px 0 12px; text-wrap: balance;
 }
 .hero p.lead{
@@ -251,7 +250,6 @@ section{
   font-size: clamp(2rem, 3.6vw, 3rem); 
   font-weight:900; 
   margin-bottom: 28px; 
-  text-transform: lowercase; 
   letter-spacing:1.5px; 
 }
 .muted{ 
